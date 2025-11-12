@@ -1,0 +1,54 @@
+# Ambientes virtuais
+venv/
+env/
+meu_ambiente_dados/
+.venv/
+.env
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+*.ipynb
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs e saídas
+logs/
+*.log
+output/
+data/processed/
+data/final/
+
+# Dados brutos (opcional: ignore tudo ou só os grandes)
+data/raw/**
+!data/raw/README.md
+
+# Notebooks com saída (opcional: você pode querer versionar a lógica, não os outputs)
+*.ipynb
+!notebooks/template.ipynb
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de build/dist
+build/
+dist/
+*.egg-info/
+
+# DVC (se usar)
+.dvc/cache/
+.dvc/tmp/
