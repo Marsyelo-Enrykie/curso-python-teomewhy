@@ -1,6 +1,6 @@
 # Ambientes virtuais e dependências
-meu_ambiente_dados/
-.meu_ambiente_dados/
+ambiente_dados/
+.ambiente_dados/
 venv/
 env/
 .venv/
@@ -17,31 +17,3 @@ __pycache__/
 .ipynb_checkpoints/
 # Descomente a linha abaixo se NÃO quiser versionar notebooks:
 # *.ipynb
-
-# Dados (nunca versione dados brutos ou processados)
-data/raw/**
-data/processed/**
-!data/README.md
-
-# Logs, saídas e artefatos temporários
-logs/
-*.log
-output/
-build/
-dist/
-*.egg-info/
-
-# Scripts de setup local (específicos da sua máquina)
-setup_dados_wsl.sh
-
-# IDEs e editores
-.vscode/
-.idea/
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-# Sistemas de versionamento de dados (se usar no futuro)
-.dvc/cache/
-.dvc/tmp/
