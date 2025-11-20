@@ -12,7 +12,7 @@ dados_fulano
 
 #%%
 # Tupla
-# Existem duas formas de declarar umad tupla
+# Existem duas formas de declarar uma tupla
 # 1ª opção:
 # tupla_fulano = (32, 1, "Solteiro", "estudante de Ciência da Computação")
 # 2ª opção:

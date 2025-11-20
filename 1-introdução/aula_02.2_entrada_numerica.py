@@ -1,4 +1,3 @@
-# Equivalente ao arquivo Dobro.py da aula
 # Trabalhando com entrada numérica de usuários
 
 #%%
