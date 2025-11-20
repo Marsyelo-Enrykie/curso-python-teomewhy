@@ -11,8 +11,8 @@ with open(arquivo) as open_file:
 print(lines)
 # %%
 # Usando comando For
-for l in lines:
-    print(l)
+for x in lines:
+    print(x)
 
 # %%
 # Criando uma estrutura de dicionário
@@ -30,8 +30,8 @@ for c in chaves:
 dados
 
 # 4ª: Alimentando o dicionário
-for l in lines[1:]:  # Percorrendo todas as linhas a partir da 2ª
-    valores = l.strip("\n").split(";")  # Removendo \n e separando entre ;
+for x in lines[1:]:  # Percorrendo todas as linhas a partir da 2ª
+    valores = x.strip("\n").split(";")  # Removendo \n e separando entre ;
 
     # Percorrendo a quantidade de valores
     for i in range(len(valores)):  # Passando por todas as chaves desta dict
@@ -46,4 +46,3 @@ for i in dados["idade"]:
     idades.append(int(i))
 
 media = sum(idades)/len(idades)
-media
