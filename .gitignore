@@ -12,6 +12,11 @@ env/
 *.json
 *.txt
 
+# Arquivos específicos
+data.csv
+lorem_ipsum.txt
+lorem_ipsum_2.txt
+
 # Python
 __pycache__/
 *.pyc
