@@ -52,10 +52,7 @@ Cada tópico foi organizado em pasta de mesmo nome, com exceção da numeração
 ### Ambiente Virtual
 - Criação de Ambiente Virtual.
 - Instalação de pacotes.
-
-## Como rodar os códigos
-
-
+  
 ## Ferramentas Utilizadas
 - Linguagem: Pyhton 3.12+
 - Editor: VS Code
